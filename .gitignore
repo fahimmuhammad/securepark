@@ -1,0 +1,33 @@
+# Dependencies
+vendor/
+node_modules/
+
+# Environment & sensitive config
+.env
+.env.local
+config/db.local.php
+
+# IDE / editor
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs & temp
+*.log
+*.tmp
+*.cache
+/tmp/
+
+# PHP compiled / cache
+*.phar
+.php-cs-fixer.cache
+
+# Upload directories (keep folder, ignore contents)
+uploads/*
+!uploads/.gitkeep
